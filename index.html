@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>球場空き状況ビューア</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Space+Grotesk:wght@500;600;700&display=swap" />
+<style>
+  :root {
+    --ink: #1C1F1D; --muted: #767B76; --bg: #F5F5F2; --surface: #FFFFFF; --border: #E6E4DE;
+    --primary: #17548F; --primary-dark: #0D3660; --primary-tint: #E8F0F9;
+    --accent: #E85D3E; --accent-dark: #C7492D;
+    --ok-bg: #E4F3EC; --ok-fg: #0F5138; --part-bg: #FCEEDE; --part-fg: #A15D14; --full-bg: #EDEDE9; --full-fg: #6B7169;
+    --radius-lg: 16px; --radius-md: 12px; --radius-sm: 9px;
+    --shadow-sm: 0 1px 2px rgba(13,29,49,0.05), 0 1px 1px rgba(13,29,49,0.03);
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #EDEDEA; --muted: #9B9A93; --bg: #1A1B19; --surface: #232420; --border: #35362F;
+      --primary: #6FA8E6; --primary-dark: #9CC4F0; --primary-tint: #1E2A38;
+      --ok-bg: #173327; --ok-fg: #7FD1A6; --part-bg: #3A2A15; --part-fg: #F0B36A; --full-bg: #2E2F2A; --full-fg: #A9A99F;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', 'Yu Gothic', sans-serif; }
+  .topline { height: 4px; background: linear-gradient(90deg, var(--primary-dark), var(--primary), #6BB8E8); }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 18px 20px; }
+  .header-inner { max-width: 820px; margin: 0 auto; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .icon { width: 38px; height: 38px; border-radius: 11px; background: var(--primary-tint); display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+  h1 { font-size: 17px; font-weight: 800; margin: 0; white-space: nowrap; }
+  .updated { font-size: 12px; color: var(--muted); margin-left: auto; }
+  main { max-width: 820px; margin: 0 auto; padding: 20px 16px 48px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); padding: 18px; margin-bottom: 16px; }
+  .notice { background: var(--part-bg); color: var(--part-fg); border-radius: var(--radius-md); padding: 10px 14px; font-size: 13px; font-weight: 700; margin-bottom: 16px; }
+  .segment { display: flex; gap: 4px; padding: 5px; background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-md); margin-bottom: 14px; }
+  .segment button { flex: 1; padding: 9px 12px; border: none; background: none; border-radius: var(--radius-sm); font: inherit; font-weight: 700; font-size: 13px; color: var(--muted); cursor: pointer; }
+  .segment button.active { background: var(--surface); color: var(--primary-dark); box-shadow: var(--shadow-sm); }
+  .date-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  input[type="date"] { font: inherit; font-size: 15px; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg); color: var(--ink); }
+  .chip-btn { text-decoration: none; padding: 8px 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--primary); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+  .chip-btn:hover { background: var(--primary-tint); }
+  .date-header { display: inline-block; font-weight: 700; font-size: 13px; color: var(--primary-dark); background: var(--primary-tint); padding: 4px 12px; border-radius: 999px; margin: 18px 0 8px; }
+  .date-header.holiday { color: var(--accent-dark); }
+  .rows { border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; background: var(--surface); }
+  .row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; align-items: center; padding: 12px 14px; border-bottom: 1px solid var(--border); }
+  .row:last-child { border-bottom: none; }
+  .name { font-weight: 700; font-size: 14px; }
+  .badge { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 999px; white-space: nowrap; justify-self: end; }
+  .times { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; }
+  .time-chip { font-family: 'Space Grotesk', sans-serif; font-size: 13px; color: var(--primary-dark); background: var(--primary-tint); border-radius: 999px; padding: 4px 12px; text-decoration: none; white-space: nowrap; }
+  a.time-chip:hover { background: var(--primary); color: #fff; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 8px; line-height: 1.7; }
+  .empty { text-align: center; color: var(--muted); padding: 36px 12px; font-size: 14px; line-height: 1.8; }
+  .links a { display: inline-block; margin: 4px 6px 0 0; }
+  #result { margin-bottom: 20px; }
+  footer { text-align: center; font-size: 12px; color: var(--muted); padding: 0 16px 32px; }
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="header-inner">
+    <div class="icon">⚾</div>
+    <h1>球場空き状況ビューア</h1>
+    <div class="updated" id="updated">読み込み中...</div>
+  </div>
+</header>
+
+<main>
+  <div id="notice"></div>
+
+  <div class="card">
+    <div class="segment">
+      <button id="mode-date" class="active">日付で見る</button>
+      <button id="mode-weekend">土日祝の空き一覧</button>
+    </div>
+    <div id="date-controls" class="date-row">
+      <input type="date" id="date-input" />
+      <button class="chip-btn" data-offset="0">今日</button>
+      <button class="chip-btn" data-offset="1">明日</button>
+      <button class="chip-btn" id="next-sat">次の土曜</button>
+      <button class="chip-btn" id="next-sun">次の日曜</button>
+    </div>
+    <div class="hint">空き時間を押すと予約サイトが開きます。玉川野球場はサイトの仕組み上トップページが開くので、球場名で検索してください。</div>
+  </div>
+
+  <div id="result"></div>
+
+  <div class="card links">
+    <div style="font-weight:700; font-size:14px; margin-bottom:6px;">関連リンク</div>
+    <a class="chip-btn" href="https://claude.ai/artifact/GCysd61BukPeXFfkGXW1Fe" target="_blank" rel="noopener">✉️ 対戦依頼DM・AIアシスタント</a>
+    <a class="chip-btn" href="https://www.shisetsu.net/yoyaku/?2128136331&__SANE_MI__=%E3%83%88%E3%83%83%E3%83%97%E3%83%9A%E3%83%BC%E3%82%B8" target="_blank" rel="noopener">厚木市 予約サイト</a>
+    <a class="chip-btn" href="https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilitySearch/Index" target="_blank" rel="noopener">伊勢原市 予約サイト</a>
+    <a class="chip-btn" href="https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilitySearch/Index" target="_blank" rel="noopener">大磯町 予約サイト</a>
+    <a class="chip-btn" href="https://ayase-yoyaku.seagull-lc.com/ayase/?342110551&__SANE_MI__=%E3%83%88%E3%83%83%E3%83%97%E3%83%9A%E3%83%BC%E3%82%B8" target="_blank" rel="noopener">綾瀬市 予約サイト</a>
+  </div>
+</main>
+<footer>データは毎朝6時ごろ自動で更新されます</footer>
+
+<script>
+  const HOLIDAYS = {
+  "2026-01-01": "元日", "2026-01-12": "成人の日", "2026-02-11": "建国記念の日", "2026-02-23": "天皇誕生日",
+  "2026-03-20": "春分の日", "2026-04-29": "昭和の日", "2026-05-03": "憲法記念日", "2026-05-04": "みどりの日",
+  "2026-05-05": "こどもの日", "2026-05-06": "振替休日", "2026-07-20": "海の日", "2026-08-11": "山の日",
+  "2026-09-21": "敬老の日", "2026-09-22": "国民の休日", "2026-09-23": "秋分の日", "2026-10-12": "スポーツの日",
+  "2026-11-03": "文化の日", "2026-11-23": "勤労感謝の日",
+  "2027-01-01": "元日", "2027-01-11": "成人の日", "2027-02-11": "建国記念の日", "2027-02-23": "天皇誕生日"
+};
+const STATUS_STYLE = {
+  "空きあり": ["var(--ok-bg)", "var(--ok-fg)"],
+  "一部空き": ["var(--part-bg)", "var(--part-fg)"]
+};
+const WEEK = ["日", "月", "火", "水", "木", "金", "土"];
+
+let entries = [];
+let mode = "date";
+
+function toISO(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+function todayISO() { return toISO(new Date()); }
+function parseISO(s) { return new Date(s + "T00:00:00"); }
+function fmtDate(s) {
+  const d = parseISO(s);
+  return `${d.getMonth() + 1}/${d.getDate()}（${WEEK[d.getDay()]}${HOLIDAYS[s] ? "・祝" : ""}）`;
+}
+function isOffDay(s) {
+  const w = parseISO(s).getDay();
+  return w === 0 || w === 6 || !!HOLIDAYS[s];
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function mergeRanges(timesStr) {
+  if (!timesStr) return [];
+  const mins = timesStr.split(",").map((t) => t.trim()).filter(Boolean).map((t) => {
+    const [h, m] = t.includes(":") ? t.split(":") : [t.slice(0, 2), t.slice(2)];
+    return parseInt(h, 10) * 60 + (parseInt(m, 10) || 0);
+  }).sort((a, b) => a - b);
+  if (!mins.length) return [];
+  const fmt = (x) => `${String(Math.floor(x / 60) % 24).padStart(2, "0")}:${String(x % 60).padStart(2, "0")}`;
+  const ranges = [];
+  let start = mins[0], prev = mins[0];
+  for (let i = 1; i < mins.length; i++) {
+    if (mins[i] - prev === 120) { prev = mins[i]; continue; }
+    ranges.push(`${fmt(start)}〜${fmt(prev + 120)}`);
+    start = prev = mins[i];
+  }
+  ranges.push(`${fmt(start)}〜${fmt(prev + 120)}`);
+  return ranges;
+}
+
+function rowHtml(e) {
+  const style = STATUS_STYLE[e.status] || ["var(--full-bg)", "var(--full-fg)"];
+  const ranges = mergeRanges(e.times);
+  const chips = ranges.map((r) => e.url
+    ? `<a class="time-chip" href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${r}</a>`
+    : `<span class="time-chip">${r}</span>`).join("");
+  return `<div class="row">
+    <div class="name">${escapeHtml(e.groundName)}</div>
+    <span class="badge" style="background:${style[0]};color:${style[1]}">${escapeHtml(e.status)}</span>
+    ${chips ? `<div class="times">${chips}</div>` : ""}
+  </div>`;
+}
+
+function renderDate(dateStr) {
+  const list = entries.filter((e) => e.date === dateStr);
+  const head = `<div class="date-header ${isOffDay(dateStr) ? "holiday" : ""}">${fmtDate(dateStr)}${HOLIDAYS[dateStr] ? " " + HOLIDAYS[dateStr] : ""}</div>`;
+  if (!list.length) {
+        return head + `<div class="card empty">この日のデータはありません。<br>（取得しているのは今日から約8週間分です）</div>`;
+  }
+  return head + `<div class="rows">${list.map(rowHtml).join("")}</div>`;
+}
+
+function renderWeekend() {
+  const dates = [...new Set(entries.map((e) => e.date))].filter(isOffDay).sort();
+  const blocks = dates.map((d) => {
+    const open = entries.filter((e) => e.date === d && (e.status === "空きあり" || e.status === "一部空き"));
+    if (!open.length) return "";
+    return `<div class="date-header holiday">${fmtDate(d)}${HOLIDAYS[d] ? " " + HOLIDAYS[d] : ""}</div><div class="rows">${open.map(rowHtml).join("")}</div>`;
+  }).filter(Boolean);
+  return blocks.length ? blocks.join("") : `<div class="card empty">土日祝で空いている球場はありませんでした。</div>`;
+}
+
+function render() {
+  const result = document.getElementById("result");
+  document.getElementById("date-controls").style.display = mode === "date" ? "flex" : "none";
+  result.innerHTML = mode === "date" ? renderDate(document.getElementById("date-input").value) : renderWeekend();
+}
+
+function setDate(d) {
+  document.getElementById("date-input").value = toISO(d);
+  render();
+}
+
+function nextWeekday(target) {
+  const d = new Date();
+  const diff = (target - d.getDay() + 7) % 7 || 7;
+  d.setDate(d.getDate() + diff);
+  return d;
+}
+
+document.getElementById("date-input").value = todayISO();
+document.getElementById("date-input").addEventListener("change", render);
+document.querySelectorAll("[data-offset]").forEach((b) => b.addEventListener("click", () => {
+  const d = new Date(); d.setDate(d.getDate() + Number(b.dataset.offset)); setDate(d);
+}));
+document.getElementById("next-sat").addEventListener("click", () => setDate(nextWeekday(6)));
+document.getElementById("next-sun").addEventListener("click", () => setDate(nextWeekday(0)));
+document.getElementById("mode-date").addEventListener("click", () => {
+  mode = "date";
+  document.getElementById("mode-date").classList.add("active");
+  document.getElementById("mode-weekend").classList.remove("active");
+  render();
+});
+document.getElementById("mode-weekend").addEventListener("click", () => {
+  mode = "weekend";
+  document.getElementById("mode-weekend").classList.add("active");
+  document.getElementById("mode-date").classList.remove("active");
+  render();
+});
+
+fetch("data/availability.json?t=" + Date.now())
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((data) => {
+    entries = data.entries || [];
+    const updated = data.updatedAt ? new Date(data.updatedAt) : null;
+    document.getElementById("updated").textContent = updated
+      ? `最終更新：${updated.getMonth() + 1}/${updated.getDate()} ${String(updated.getHours()).padStart(2, "0")}:${String(updated.getMinutes()).padStart(2, "0")}`
+      : "まだ更新されていません";
+    if (data.errors && data.errors.length) {
+      document.getElementById("notice").innerHTML = `<div class="notice">⚠ 前回の更新で取得できなかった球場があります：${data.errors.map((e) => escapeHtml(e.groundName)).join("、")}（前回のデータを表示しています）</div>`;
+    }
+    render();
+  })
+  .catch(() => {
+    document.getElementById("updated").textContent = "";
+    document.getElementById("result").innerHTML = `<div class="card empty">データを読み込めませんでした。<br>初回の自動更新がまだ終わっていない可能性があります。</div>`;
+  });
+</script>
+</body>
+</html>
