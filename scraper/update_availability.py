@@ -107,7 +107,7 @@ def scrape_atsugi(browser, checked_at):
     results = []
     page = browser.new_page(locale="ja-JP", timezone_id="Asia/Tokyo", viewport={"width": 1400, "height": 1000})
     page.set_default_timeout(60000)
-    page.goto(ATSUGI_URL, wait_until="networkidle", timeout=90000)
+    page.goto(ATSUGI_URL, wait_until="domcontentloaded", timeout=90000)
     page.wait_for_timeout(3000)
 
     for i, ground in enumerate(ATSUGI_GROUNDS):
