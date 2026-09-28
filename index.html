@@ -225,7 +225,7 @@ document.getElementById("mode-weekend").addEventListener("click", () => {
   render();
 });
 
-fetch("data/availability.json?t=" + Date.now())
+fetch("docs/data/availability.json?t=" + Date.now())
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then((data) => {
     entries = data.entries || [];
