@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T11:47+09:00",
+ "updatedAt": "2026-10-05T06:33+09:00",
  "errors": [
   {
    "groundName": "玉川野球場",
@@ -9,30 +9,12 @@
  "entries": [
   {
    "groundName": "いせはらサンシャイン・スタジアム",
-   "date": "2026-10-04",
-   "status": "受付終了",
-   "times": "",
-   "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-04&sd=2026-10-04&ed=2026-10-04",
-   "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
-  },
-  {
-   "groundName": "大磯運動公園 野球場",
-   "date": "2026-10-04",
-   "status": "一部空き",
-   "times": "19:00",
-   "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-04&rc=005&sd=2026-10-04&rc2w=005&ed=2026-10-04",
-   "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
-  },
-  {
-   "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-10-05",
    "status": "休館日",
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-05&sd=2026-10-05&ed=2026-10-05",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -41,7 +23,7 @@
    "times": "09:00, 11:00, 13:00, 15:00, 17:00, 19:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-05&rc=005&sd=2026-10-05&rc2w=005&ed=2026-10-05",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -50,7 +32,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-06&sd=2026-10-06&ed=2026-10-06",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -59,7 +41,7 @@
    "times": "09:00, 11:00, 13:00, 15:00, 17:00, 19:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-06&rc=005&sd=2026-10-06&rc2w=005&ed=2026-10-06",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -68,7 +50,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-07&sd=2026-10-07&ed=2026-10-07",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -77,7 +59,7 @@
    "times": "09:00, 11:00, 13:00, 15:00, 17:00, 19:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-07&rc=005&sd=2026-10-07&rc2w=005&ed=2026-10-07",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -86,7 +68,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-08&sd=2026-10-08&ed=2026-10-08",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -95,7 +77,7 @@
    "times": "09:00, 11:00, 13:00, 15:00, 17:00, 19:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-08&rc=005&sd=2026-10-08&rc2w=005&ed=2026-10-08",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -104,7 +86,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-09&sd=2026-10-09&ed=2026-10-09",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -113,7 +95,7 @@
    "times": "09:00, 11:00, 13:00, 15:00, 17:00, 19:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-09&rc=005&sd=2026-10-09&rc2w=005&ed=2026-10-09",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -122,7 +104,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-10&sd=2026-10-10&ed=2026-10-10",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -131,7 +113,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-10&rc=005&sd=2026-10-10&rc2w=005&ed=2026-10-10",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -140,16 +122,16 @@
    "times": "20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-11&sd=2026-10-11&ed=2026-10-11",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
    "date": "2026-10-11",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "17:00, 19:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-11&rc=005&sd=2026-10-11&rc2w=005&ed=2026-10-11",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -158,7 +140,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-12&sd=2026-10-12&ed=2026-10-12",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -167,7 +149,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-12&rc=005&sd=2026-10-12&rc2w=005&ed=2026-10-12",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -176,7 +158,7 @@
    "times": "06:00, 08:00, 16:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-13&sd=2026-10-13&ed=2026-10-13",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -185,7 +167,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-13&rc=005&sd=2026-10-13&rc2w=005&ed=2026-10-13",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -194,7 +176,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-14&sd=2026-10-14&ed=2026-10-14",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -203,7 +185,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-14&rc=005&sd=2026-10-14&rc2w=005&ed=2026-10-14",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -212,7 +194,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-15&sd=2026-10-15&ed=2026-10-15",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -221,7 +203,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-15&rc=005&sd=2026-10-15&rc2w=005&ed=2026-10-15",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -230,7 +212,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-16&sd=2026-10-16&ed=2026-10-16",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -239,7 +221,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-16&rc=005&sd=2026-10-16&rc2w=005&ed=2026-10-16",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -248,7 +230,7 @@
    "times": "06:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-17&sd=2026-10-17&ed=2026-10-17",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -257,7 +239,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-17&rc=005&sd=2026-10-17&rc2w=005&ed=2026-10-17",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -266,7 +248,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-18&sd=2026-10-18&ed=2026-10-18",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -275,7 +257,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-18&rc=005&sd=2026-10-18&rc2w=005&ed=2026-10-18",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -284,7 +266,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-19&sd=2026-10-19&ed=2026-10-19",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -293,7 +275,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-19&rc=005&sd=2026-10-19&rc2w=005&ed=2026-10-19",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -302,7 +284,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-20&sd=2026-10-20&ed=2026-10-20",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -311,7 +293,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-20&rc=005&sd=2026-10-20&rc2w=005&ed=2026-10-20",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -320,7 +302,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-21&sd=2026-10-21&ed=2026-10-21",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -329,7 +311,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-21&rc=005&sd=2026-10-21&rc2w=005&ed=2026-10-21",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -338,7 +320,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-22&sd=2026-10-22&ed=2026-10-22",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -347,7 +329,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-22&rc=005&sd=2026-10-22&rc2w=005&ed=2026-10-22",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -356,7 +338,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-23&sd=2026-10-23&ed=2026-10-23",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -365,7 +347,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-23&rc=005&sd=2026-10-23&rc2w=005&ed=2026-10-23",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -374,7 +356,7 @@
    "times": "18:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-24&sd=2026-10-24&ed=2026-10-24",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -383,7 +365,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-24&rc=005&sd=2026-10-24&rc2w=005&ed=2026-10-24",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -392,7 +374,7 @@
    "times": "06:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-25&sd=2026-10-25&ed=2026-10-25",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -401,7 +383,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-25&rc=005&sd=2026-10-25&rc2w=005&ed=2026-10-25",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -410,7 +392,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-26&sd=2026-10-26&ed=2026-10-26",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -419,7 +401,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-26&rc=005&sd=2026-10-26&rc2w=005&ed=2026-10-26",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -428,7 +410,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-27&sd=2026-10-27&ed=2026-10-27",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -437,7 +419,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-27&rc=005&sd=2026-10-27&rc2w=005&ed=2026-10-27",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -446,7 +428,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-28&sd=2026-10-28&ed=2026-10-28",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -455,7 +437,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-28&rc=005&sd=2026-10-28&rc2w=005&ed=2026-10-28",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -464,7 +446,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-29&sd=2026-10-29&ed=2026-10-29",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -473,7 +455,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-29&rc=005&sd=2026-10-29&rc2w=005&ed=2026-10-29",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -482,7 +464,7 @@
    "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-30&sd=2026-10-30&ed=2026-10-30",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -491,7 +473,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-30&rc=005&sd=2026-10-30&rc2w=005&ed=2026-10-30",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -500,7 +482,7 @@
    "times": "06:00, 18:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-10-31&sd=2026-10-31&ed=2026-10-31",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -509,16 +491,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-10-31&rc=005&sd=2026-10-31&rc2w=005&ed=2026-10-31",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-01",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-01&sd=2026-11-01&ed=2026-11-01",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -527,7 +509,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-01&rc=005&sd=2026-11-01&rc2w=005&ed=2026-11-01",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -536,7 +518,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-02&sd=2026-11-02&ed=2026-11-02",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -545,16 +527,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-02&rc=005&sd=2026-11-02&rc2w=005&ed=2026-11-02",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-03",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-03&sd=2026-11-03&ed=2026-11-03",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -563,16 +545,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-03&rc=005&sd=2026-11-03&rc2w=005&ed=2026-11-03",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-04",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-04&sd=2026-11-04&ed=2026-11-04",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -581,16 +563,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-04&rc=005&sd=2026-11-04&rc2w=005&ed=2026-11-04",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-05",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-05&sd=2026-11-05&ed=2026-11-05",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -599,16 +581,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-05&rc=005&sd=2026-11-05&rc2w=005&ed=2026-11-05",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-06",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-06&sd=2026-11-06&ed=2026-11-06",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -617,16 +599,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-06&rc=005&sd=2026-11-06&rc2w=005&ed=2026-11-06",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-07",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00, 10:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-07&sd=2026-11-07&ed=2026-11-07",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -635,16 +617,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-07&rc=005&sd=2026-11-07&rc2w=005&ed=2026-11-07",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-08",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-08&sd=2026-11-08&ed=2026-11-08",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -653,7 +635,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-08&rc=005&sd=2026-11-08&rc2w=005&ed=2026-11-08",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -662,7 +644,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-09&sd=2026-11-09&ed=2026-11-09",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -671,16 +653,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-09&rc=005&sd=2026-11-09&rc2w=005&ed=2026-11-09",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-10",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-10&sd=2026-11-10&ed=2026-11-10",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -689,16 +671,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-10&rc=005&sd=2026-11-10&rc2w=005&ed=2026-11-10",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-11",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-11&sd=2026-11-11&ed=2026-11-11",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -707,16 +689,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-11&rc=005&sd=2026-11-11&rc2w=005&ed=2026-11-11",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-12",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-12&sd=2026-11-12&ed=2026-11-12",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -725,16 +707,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-12&rc=005&sd=2026-11-12&rc2w=005&ed=2026-11-12",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-13",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-13&sd=2026-11-13&ed=2026-11-13",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -743,16 +725,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-13&rc=005&sd=2026-11-13&rc2w=005&ed=2026-11-13",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-14",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00, 08:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-14&sd=2026-11-14&ed=2026-11-14",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -761,16 +743,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-14&rc=005&sd=2026-11-14&rc2w=005&ed=2026-11-14",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-15",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-15&sd=2026-11-15&ed=2026-11-15",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -779,7 +761,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-15&rc=005&sd=2026-11-15&rc2w=005&ed=2026-11-15",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
@@ -788,7 +770,7 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-16&sd=2026-11-16&ed=2026-11-16",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -797,16 +779,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-16&rc=005&sd=2026-11-16&rc2w=005&ed=2026-11-16",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-17",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-17&sd=2026-11-17&ed=2026-11-17",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -815,16 +797,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-17&rc=005&sd=2026-11-17&rc2w=005&ed=2026-11-17",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-18",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-18&sd=2026-11-18&ed=2026-11-18",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -833,16 +815,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-18&rc=005&sd=2026-11-18&rc2w=005&ed=2026-11-18",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-19",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-19&sd=2026-11-19&ed=2026-11-19",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -851,16 +833,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-19&rc=005&sd=2026-11-19&rc2w=005&ed=2026-11-19",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-20",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-20&sd=2026-11-20&ed=2026-11-20",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -869,16 +851,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-20&rc=005&sd=2026-11-20&rc2w=005&ed=2026-11-20",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-21",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00, 08:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-21&sd=2026-11-21&ed=2026-11-21",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -887,16 +869,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-21&rc=005&sd=2026-11-21&rc2w=005&ed=2026-11-21",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-22",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-22&sd=2026-11-22&ed=2026-11-22",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -905,16 +887,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-22&rc=005&sd=2026-11-22&rc2w=005&ed=2026-11-22",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-23",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-23&sd=2026-11-23&ed=2026-11-23",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -923,16 +905,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-23&rc=005&sd=2026-11-23&rc2w=005&ed=2026-11-23",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-24",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-24&sd=2026-11-24&ed=2026-11-24",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -941,16 +923,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-24&rc=005&sd=2026-11-24&rc2w=005&ed=2026-11-24",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-25",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-25&sd=2026-11-25&ed=2026-11-25",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -959,16 +941,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-25&rc=005&sd=2026-11-25&rc2w=005&ed=2026-11-25",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-26",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-26&sd=2026-11-26&ed=2026-11-26",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -977,16 +959,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-26&rc=005&sd=2026-11-26&rc2w=005&ed=2026-11-26",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-27",
-   "status": "受付前",
-   "times": "",
+   "status": "空きあり",
+   "times": "06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-27&sd=2026-11-27&ed=2026-11-27",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -995,16 +977,16 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-27&rc=005&sd=2026-11-27&rc2w=005&ed=2026-11-27",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "いせはらサンシャイン・スタジアム",
    "date": "2026-11-28",
-   "status": "受付前",
-   "times": "",
+   "status": "一部空き",
+   "times": "06:00, 18:00, 20:00",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-28&sd=2026-11-28&ed=2026-11-28",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
   },
   {
    "groundName": "大磯運動公園 野球場",
@@ -1013,7 +995,25 @@
    "times": "",
    "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-28&rc=005&sd=2026-11-28&rc2w=005&ed=2026-11-28",
    "directLink": true,
-   "checkedAt": "2026-10-04T11:47+09:00"
+   "checkedAt": "2026-10-05T06:33+09:00"
+  },
+  {
+   "groundName": "いせはらサンシャイン・スタジアム",
+   "date": "2026-11-29",
+   "status": "一部空き",
+   "times": "06:00, 18:00, 20:00",
+   "url": "https://s-yoyaku.e-kanagawa.lg.jp/isehara/FacilityAvailability/Index/142140/0015?ptn=2&d=2026-11-29&sd=2026-11-29&ed=2026-11-29",
+   "directLink": true,
+   "checkedAt": "2026-10-05T06:33+09:00"
+  },
+  {
+   "groundName": "大磯運動公園 野球場",
+   "date": "2026-11-29",
+   "status": "受付前",
+   "times": "",
+   "url": "https://s-yoyaku.e-kanagawa.lg.jp/oiso/FacilityAvailability/Index/143413/0001?ptn=3&d=2026-11-29&rc=005&sd=2026-11-29&rc2w=005&ed=2026-11-29",
+   "directLink": true,
+   "checkedAt": "2026-10-05T06:33+09:00"
   }
  ]
 }
